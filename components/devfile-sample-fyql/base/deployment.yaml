@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fyql
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0007-tenant/tkwch-fix-0075-0007-app/devfile-sample-fyql@sha256:f793c0753a587cef70b982cc9f7ea7ef76f4e754d560a8a94a83a227fba68b56
         name: my-nodejs
         ports:
         - containerPort: 3001
